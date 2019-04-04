@@ -1,0 +1,57 @@
+html {
+	background-color: #b26d50;
+	font-family: helvetica;
+}
+
+p {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+	padding: 5px;
+	margin-left: 350px;
+	margin-right: 345px;
+	margin-bottom: 50px;
+	border: solid 1px white;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+ul {
+	font-size: 25px;
+	color: #dddbdb;
+	font-style: italic;
+	margin-bottom: 400px;
+}
+
+.ul2 {
+	font-size: 25px;
+	color: #dddbdb;
+	font-style: italic;
+	margin-bottom: 450px;
+}
+
+.top {
+	margin-left: 100px;
+}
+
+.class {
+	margin-bottom: 50px;
+}
+
+.everything {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.Sahara, .stephanie, .ivy, .amayi {
+	width: 400px;
+	float: left;
+	padding-right: 70px;
+	padding-left: 20px;
+}
+
