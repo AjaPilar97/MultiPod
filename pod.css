@@ -1,6 +1,6 @@
 html {
 	background-color: #b26d50;
-	font-family: helvetica;
+	font-family: 'Roboto Mono', monospace;
 }
 
 p {
@@ -10,28 +10,16 @@ p {
 h3 {
 	font-size: 18px;
 	padding: 5px;
-	margin-left: 350px;
-	margin-right: 345px;
+	margin-left: 315px;
+	margin-right: 312px;
 	margin-bottom: 50px;
-	border: solid 1px white;
+	border: solid 1px #dddbdb;
+	border-radius: 10px;
 }
 
 h2 {
 	text-decoration: underline;
-}
-
-ul {
-	font-size: 25px;
-	color: #dddbdb;
-	font-style: italic;
-	margin-bottom: 400px;
-}
-
-.ul2 {
-	font-size: 25px;
-	color: #dddbdb;
-	font-style: italic;
-	margin-bottom: 450px;
+	text-align: center;
 }
 
 .top {
@@ -48,10 +36,237 @@ ul {
 	margin: 0 auto;
 }
 
-.Sahara, .stephanie, .ivy, .amayi {
+/*.Sahara, .stephanie, .ivy, .amayi {
 	width: 400px;
 	float: left;
 	padding-right: 70px;
 	padding-left: 20px;
 }
+*/
+.intro {
+	font-size: 30px;
+	font-family: 'Roboto Mono', monospace;
+}
 
+.monster {
+	width: 850px;
+	margin-top: 300px;
+	padding-left: 25px;
+}
+
+/*#sg {
+	border: solid 1px white;
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+
+#sp {
+	border: solid 1px white;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+#ib {
+	border: solid 1px white;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+#am {
+	border: solid 1px white;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 30px;
+	padding-bottom: 100px;
+}*/
+
+/* LINKS */
+a:link {
+	color: #806960;
+}
+
+a:visited {
+	color: #805644;
+}
+
+a:hover {
+	color: #698a91;
+}
+
+/* Sahara */
+
+#sg {
+  position: relative;
+  width: 600px;
+  margin-left: 150px;
+  border: solid 1px white;
+}
+
+.Sahara {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b26d50;
+}
+
+#sg:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #dddbdb;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Stephanie*/
+
+#sp {
+  position: relative;
+  width: 600px;
+  margin-left: 150px;
+  border: solid 1px white;
+}
+
+.stephanie {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlays {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #b26d50;
+}
+
+#sp:hover .overlays {
+  opacity: 1;
+}
+
+.texts {
+  color: #dddbdb;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Ivy */
+
+#ib {
+  position: relative;
+  width: 600px;
+  margin-left: 150px;
+  border: solid 1px white;
+}
+
+.ivy {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #b26d50;
+}
+
+#ib:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: #dddbdb;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Amayi */
+
+#am {
+  position: relative;
+  width: 600px;
+  margin-left: 150px;
+  border: solid 1px white;
+}
+
+.amayi {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlays2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #b26d50;
+}
+
+#am:hover .overlays2 {
+  opacity: 1;
+}
+
+.texts2 {
+  color: #dddbdb;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
