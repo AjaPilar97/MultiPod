@@ -122,7 +122,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #b26d50;
+  background-color: black;
 }
 
 #sg:hover .overlay {
@@ -165,7 +165,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #b26d50;
+  background-color: black;
 }
 
 #sp:hover .overlays {
@@ -208,7 +208,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #b26d50;
+  background-color: black;
 }
 
 #ib:hover .overlay2 {
@@ -252,7 +252,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #b26d50;
+  background-color: black;
 }
 
 #am:hover .overlays2 {
