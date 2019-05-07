@@ -50,9 +50,10 @@ h2 {
 }
 
 .monster {
-	width: 850px;
-	margin-top: 300px;
-	padding-left: 25px;
+	width: 100px;
+	float: right;
+	margin-right: 100px;
+	margin-top: 10px;
 }
 
 /*#sg {
